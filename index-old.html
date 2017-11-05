@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <title>Cuisine traditionnelle et moderne</title>
+    <meta charset="utf-8">
+    <!-- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+      The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row spacer">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-8">.col-sm-8</div>
+    </div>
+    <div class="row">
+        <h1>
+            <mark>Highlight Text</mark>
+        </h1>
+        <p><abbr title="organisation mondiale de la santé">OMS</abbr></p>
+    </div>
+    <div class="row">
+        <p>The blockquote element is used to present content from another source:</p>
+        <blockquote class="blockquote">
+            <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation
+                organization, WWF works in 100 countries and is supported by 1.2 million members in the United States
+                and close to 5 million globally.</p>
+            <footer class="blockquote-footer">From WWF's website</footer>
+        </blockquote>
+    </div>
+    <div class="row">
+        <h1>Description Lists</h1>
+        <p>The dl element indicates a description list:</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+    </div>
+    <div class="row">
+        <p>Code en java: <code>public static void main()</code></p>
+    </div>
+
+    <div class="row">
+        <h1>Keyboard Inputs</h1>
+        <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+        <p>Use <kbd>ctrl + i</kbd> to open the Print dialog box.</p>
+    </div>
+    <div class="row">
+
+        <h1>Multiple Code Lines</h1>
+        <p>For multiple lines of code, use the pre element:</p>
+        <pre>
+            Text in a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks.
+        </pre>
+    </div>
+    <div class="row">
+        <h1>Text color</h1>
+        <p class="text-muted bg-primary">text muted</p>
+        <p class="text-primary">text primary</p>
+
+    </div>
+
+    <table class="table table-responsive-sm">
+        <thead>
+        <tr>
+            <td>Nom</td>
+            <td>Prénom</td>
+            <td>Tel</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>BEKRI</td>
+            <td>Mohamed</td>
+            <td>0659827516</td>
+        </tr>
+        <tr>
+            <td>MORDJI</td>
+            <td>Zouweyna</td>
+            <td>0751408688</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+
+    <!--<div>-->
+    <!--<img src="C:\Users\mbe3594\Desktop\0434.jpg" class="rounded-circle"/>-->
+    <!--<img src="C:\Users\mbe3594\Desktop\0434.jpg" class="rounded"/>-->
+    <!--<img src="C:\Users\mbe3594\Desktop\0434.jpg" class="float-left"/>-->
+    <!--<img src="C:\Users\mbe3594\Desktop\0434.jpg" class="float-right"/>-->
+    <!--</div>-->
+    <div class="jumbotron">
+        <h1>Bootstrap Tutorial</h1>
+        <p>Bootstrap is the most popular HTML, CSS...</p>
+    </div>
+    <div class="success alert-success">you should read this <a href="#" class="alert-link">message</a></div>
+
+    <!--Tip: &times; (×) is an HTML entity that is the preferred icon for close buttons, rather than the letter "x".-->
+    <div class="alert alert-success alert-dismissable fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        message
+    </div>
+    <div class="row spacer">
+        <button type="button" class="btn btn-primary">valider</button>
+        <button type="button" class="btn btn-outline-primary">outline</button>
+        <button type="button" class="btn btn-sm btn-primary">small</button>
+        <input type="button" class="btn btn-primary" value="valider">
+        <input type="button" class="btn btn-primary disabled" value="valider">
+        <a href="#" class="btn btn-primary" role="button">Link Button</a>
+        <a href="#" class="btn btn-primary disabled" role="button">Disabled link</a>
+        <button type="button" class="btn btn-block btn-primary">block</button>
+    </div>
+    <div class="btn-group btn-group-sm spacer">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <div class="btn-group btn-group-vertical spacer">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-primary">Apple</button>
+        <button class="btn btn-primary">Samsung</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Phones</a>
+                <a class="dropdown-item" href="#">Tablets</a>
+            </div>
+        </div>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-primary">Apple</button>
+        <button class="btn btn-primary">Samsung</button>
+        <button class="btn btn-primary">Sony</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Phones</a>
+                <a class="dropdown-item" href="#">Tablets</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <span class="badge badge-danger">danger</span>
+        <span class="badge badge-primary">primary</span>
+        <span class="badge badge-pill badge-primary">primary</span>
+        <button class="btn btn-primary">Messages <span class="badge badge-light">4</span></button>
+
+    </div>
+    <div class="spacer"/>
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%"></div>
+
+    </div>
+    <div class="spacer"/>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 70%"></div>
+
+    </div>
+    <div class="spacer"/>
+    <ul class="pagination">
+        <li class="page-item active"><a class="page-link" href="#">previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">next</a></li>
+    </ul>
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">holiday</a></li>
+        <li class="breadcrumb-item"><a href="#">summer 2017</a></li>
+        <li class="breadcrumb-item"><a href="#">Turkya</a></li>
+        <li class="breadcrumb-item active">Antalya</li>
+    </ul>
+
+    <h2>List Group With Contextual Classes</h2>
+    <ul class="list-group">
+
+        <li class="list-group-item list-group-item-primary active">Primary item</li>
+        <li class="list-group-item list-group-item-dark">Dark item</li>
+        <li class="list-group-item list-group-item-light">Light item</li>
+    </ul>
+
+
+</div>
+
+
+</body>
+</html>

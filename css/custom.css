@@ -1,0 +1,9 @@
+.spacer {
+    padding-bottom: 20px;
+    padding-top: 20px;+
+}
+
+[class*="col-"] {
+    border-radius: 6px;
+    background-color: aqua;
+}
